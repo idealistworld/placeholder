@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import NavbarIcon from '../../img/navbar-logo.png'
+import React from 'react';
 import './howitworkscard.css'
 
 const HowItWorks = (props) => {

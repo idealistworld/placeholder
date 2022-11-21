@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import Navbar from '../navbar/navbar'
 import './inputsection.css'
 import GlowingOrb from '../../img/glow.png'
-import {app, database} from '../../firebase'
+import {database} from '../../firebase'
 import { addDoc, collection, Timestamp} from 'firebase/firestore';
 
 

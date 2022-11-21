@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import HowItWorksCard from '../howitworkscard/howitworkscard'
 import './howitworks.css'
 
