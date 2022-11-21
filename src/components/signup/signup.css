@@ -1,0 +1,9 @@
+#landing-container {
+    background-image: url("../../img/star-background.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    margin-bottom: -40vw;
+}
