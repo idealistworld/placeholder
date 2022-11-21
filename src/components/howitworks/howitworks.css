@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#how-it-works-container {
+    background-image: url('../../img/how-it-works-background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+#how-it-works-content-container {
+    padding-top: 5vw;
+}
+
+#how-it-works-title {
+    background: linear-gradient(92.04deg, #AC99EE 3.11%, #E5DDFF 52.39%, #AC99EE 100.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 6.5vw;
+}
+
+#how-it-works-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+#how-it-works-card-content {
+    width: 80%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
